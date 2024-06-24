@@ -6,5 +6,5 @@
   overlays = import ./overlays;
 
   digitalalovestory = pkgs.pkgsi686Linux.callPackage ./pkgs/digitalalovestory { };
-  digitalalovestory-bin = pkgs.callPackage ./pkgs/digitalalovestory-bin { };
+  digitalalovestory-bin = pkgs.pkgsi686Linux.callPackage ./pkgs/digitalalovestory-bin { };
 }
