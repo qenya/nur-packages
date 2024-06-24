@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   version = "1.1";
 
   src = fetchzip {
-    url = "https://www.scoutshonour.com/lilyofthevalley/digital-1.1.tar.bz2";
+    url = "https://www.scoutshonour.com/lilyofthevalley/digital-${version}.tar.bz2";
     sha256 = "+7KcZ8dKts1AoKWNfHMKIt+w2fBFIAcnkuAtzSw49xk=";
   };
 
