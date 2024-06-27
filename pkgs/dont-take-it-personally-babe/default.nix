@@ -56,12 +56,12 @@ stdenv.mkDerivation rec {
 
     # add launcher
     mkdir -p $out/bin
-    substituteAll ${./launcher.sh} $out/bin/donttakeitpersonallybabe
-    chmod +x $out/bin/donttakeitpersonallybabe
+    substituteAll ${./launcher.sh} $out/bin/donttakeitpersonallybabeitjustaintyourstory
+    chmod +x $out/bin/donttakeitpersonallybabeitjustaintyourstory
 
     # add desktop file
     mkdir -p $out/share/applications
-    substituteAll ${./donttakeitpersonallybabe.desktop} $out/share/applications/donttakeitpersonallybabe.desktop
+    substituteAll ${./donttakeitpersonallybabeitjustaintyourstory.desktop} $out/share/applications/donttakeitpersonallybabeitjustaintyourstory.desktop
 
     runHook postInstall
   '';
