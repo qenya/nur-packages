@@ -9,7 +9,7 @@
 }:
 
 stdenv.mkDerivation rec {
-  pname = "digitalalovestory-bin";
+  pname = "digital-a-love-story";
   version = "1.1";
 
   src = fetchzip {
